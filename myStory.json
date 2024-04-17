@@ -1,0 +1,146 @@
+{
+    "Title": "Escape bedroom",
+    "Credits": "Made by Calvin Hunter (calhunte@ucsc.edu)",
+    "InitialLocation": "Bedroom",
+    "BackpackHelper": "Maybe I should try to find my backpack.",
+    "WaterBottleHelper": "Maybe I should try to find my water bottle.",
+    "KeysHelper": "Maybe I should try to find my keys to get out of here.",
+
+    "Locations": {
+        "Bedroom": {
+            "Body": "You are in the Bedroom",
+            "LocationChoices": [
+                {
+                    "Text": "To Living Room",
+                    "Target": "Living Room",
+                    "index": 0
+                }
+            ],
+            "InspectChoices": [
+                {
+                    "name": "Bed",
+                    "ButtonText": "Inpect Bed",
+                    "Message": "You're covers are messy, you just got out of bed.<br><br><i>I should collect my things to leave the house.</i><hr>",
+                    "index": 1
+                    
+                },
+                {
+                    "name": "Desk",
+                    "ButtonText": "Inspect Desk",
+                    "Message": "Your desk is empty with only 6 cents and your wallet and keys.<br><br><i>I think I'm going to grab my keys.</i><br><br><br><b>+ Keys</b><hr>",
+                    "index": 1
+                },
+                {
+                    "name": "Nightstand",
+                    "ButtonText": "Inspect Nightstand",
+                    "Message": "You're alarm clock as well as your lamp sits on top.<br><br><i>Hm, that's weird. my alarm clock is turned off..</i><hr>",
+                    "index": 1
+                },
+                {
+                    "name": "Closet",
+                    "ButtonText": "Inspect Closet",
+                    "Message": "You swing open your closet door. All you see is your backpack and a hamper full of stinky clothes.<br><br><i>I'm gonna grab my backpack, I think I'm going out today.</i><br><br><br><b>+ Backpack</b><hr>",
+                    "index": 1
+                }
+
+            ]
+        },
+        "Living Room": {
+            "Body": "You make your way into the Living Room",
+            "LocationChoices": [
+                {
+                    "Text": "To Kitchen",
+                    "Target": "Kitchen",
+                    "index": 0
+                },
+                {
+                    "Text": "To Bedroom",
+                    "Target": "Bedroom",
+                    "index": 0
+                }
+            ],
+            "InspectChoices": [
+                {
+                    "name": "Couch",
+                    "ButtonText": "Couch",
+                    "Message": "The couch is bright yellow with a stain on one of the coushins.<br><br><i>The remote should not stay on the couch, only the coffee table. This should be common knowledge.</i><hr>",
+                    "index": 1
+                },
+                {
+                    "name": "CoffeeTable",
+                    "ButtonText": "Inspect Coffee Table",
+                    "Message": "The coffee table is made up of two cardboard boaxes taped together with a stained dining table cloth sat on top.<br><br><i>I should tidy up these magazines and find my water bottle.</i><hr>",
+                    "index": 1
+                },
+                {
+                    "name": "B_T",
+                    "ButtonText": "Inspect Behind the Television",
+                    "Message": "All you find are wires and cables, nothing special here.<br><br><i>Why am I checking this, I should be more productive with my time.<hr>",
+                    "index": 1
+                },
+                {
+                    "name": "Stereo",
+                    "ButtonText": "Inspect Stereo",
+                    "Message": "This is the nicest stereo you've ever seen, it's got all the gizmos and gadgets.<br><br><i>I'm gonna turn the stereo to the max volume. I hope to scare the next user.</i><hr>",
+                    "index": 1
+                }
+            ]
+        },
+        "Kitchen": {
+            "Body": "You are in the Kitchen",
+            "LocationChoices": [
+                {
+                    "Text": "To Living Room",
+                    "Target": "Living Room",
+                    "index": 0
+                }
+            
+            ],
+            "InspectChoices": [
+                {
+                    "name": "Fridge",
+                    "ButtonText": "Inspect Fridge",
+                    "Message": "You open the fridge to find a water bottle, a head of lettuce, and a bottle of ketchup.<br><br><i>I'm so glad I refilled my water bottle last night. I'm gonna grab that.</i><br><br><br><b>+ Water Bottle</b><hr>",
+                    "index": 1
+                },
+                {
+                    "name": "Oven",
+                    "ButtonText": "Inspect Oven",
+                    "Message": "You open the oven and see empty space.<br><br><i>There's nothing in here. Why am I looking in here, I'm not even baking anything.</i><hr>",
+                    "index": 1
+                },
+                {
+                    "name": "Stove",
+                    "ButtonText": "Inspect Stove",
+                    "Message": "The stove looks clean<br><br><i>I'm confused, I'm not cooking anything so why am I looking at the cooking appliances??</i><hr>",
+                    "index": 1
+                },
+                {
+                    "name": "Microwave",
+                    "ButtonText": "Inspect Microwave",
+                    "Message": "The microwave door suddenly opens for you to find nothing but the rotating disk.<br><br><i>I don't remember wanting to microwave anything..</i><hr>",
+                    "index": 1
+                },
+                {
+                    "name": "Cabinet",
+                    "ButtonText": "Inspect Cabinet",
+                    "Message": "You push on the cabinet door to open it. There's only one twix bar, a bag of cheetos, and peanut butter.<br><br><i>I shouldn't be looking in here.. What am I doing?</i><hr>",
+                    "index": 1
+                }
+            ]
+        }
+        
+        
+        ,
+        "OutsideLand": {
+            "Body": "Outsideland",
+            "LocationChoices": [
+                {
+                    "Text": "To Front Door",
+                    "Target": "End",
+                    "index": 0
+                }
+            ]
+        }
+    }
+}
