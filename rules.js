@@ -1,7 +1,7 @@
 class Start extends Scene {
     create() {
         this.engine.setTitle(this.engine.storyData.Title); // TODO: replace this text using this.engine.storyData to find the story title
-        this.engine.show("<hr>You wake up in your bedroom. You should probably get out of there.<hr>")
+        this.engine.show("<hr>You wake up in your bedroom. You should probably get out of there.")
         this.engine.addChoice("Begin the story");
         
     }
